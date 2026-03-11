@@ -15,6 +15,7 @@ La pipeline automatizza le principali fasi di un workflow di Machine Learning:
 
 Il modello viene addestrato utilizzando scikit-learn e l’applicazione è containerizzata tramite Docker.
 
+
 Pipeline:
 
 -Upload dataset – il caricamento del file avvia automaticamente la pipeline.
@@ -24,6 +25,7 @@ Pipeline:
 -Training – addestramento del modello di classificazione.
 
 -Inference – endpoint HTTP per ottenere predizioni su nuovi dati.
+
 
 
 Tecnologie:
